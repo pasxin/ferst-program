@@ -9,7 +9,7 @@ int size = Convert.ToInt32(String); // Переменная колличеств
 int [] array = new int [size];
 do
             {
-                Console.Write ("Введите значение переменной №",count + 1);
+                Console.Write ("Введите значение переменной №");
                 Console.WriteLine (count + 1);
                 array [count] = Convert.ToInt32(Console.ReadLine());
                 count = count + 1;
