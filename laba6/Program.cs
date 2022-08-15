@@ -4,8 +4,10 @@ string String = Console.ReadLine();
 int number = Convert.ToInt32(String); 
 number=Math.Abs(number);
 if (number < 100) 
-    {Console.Write ("Третьей цыфры нет");} 
+    {
+     Console.Write ("Третьей цыфры нет");
+    } 
         else
         {
         Console.WriteLine (number.ToString()[2]);
-        }
+        } 
