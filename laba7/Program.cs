@@ -7,7 +7,7 @@ if (number>7 || number < 1)
     {Console.Write ("Введено не корректное значение дня недели");} 
         else
         {
-        if (number>5 || number < 1) 
+        if (number>5) 
           {Console.Write ("Выходной");} 
           else {Console.Write ("Рабочий день");}
         }
