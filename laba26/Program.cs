@@ -19,7 +19,7 @@ void RandomArray(int[,] array)
         {
           for (j = array.GetLength(1) - 1; j >= 0; j = j -1) 
             {
-           array [i,j]=count;
+             array [i,j]=count;
              count = count + 1;
             }  
         }
