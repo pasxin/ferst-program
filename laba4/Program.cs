@@ -14,7 +14,7 @@ do
                 if (count % 2 == 0) {even [col] = count; col = col + 1;}
                 count = count + 1;
             }
-            while (count < size);
+         //   while (count < size);
 // Выводим на все четные знаения 
 
     
